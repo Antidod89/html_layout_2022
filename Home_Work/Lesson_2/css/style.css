@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+.container {
+    max-width: 1920px;
+}
+header {
+    height: 80px;
+    padding: 0 388px 0 390px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    font-size: 40px;
+    padding-top: 63px;
+    text-align: center;
+    margin: 0;
+}
+.section-item {
+    display: flex;
+    justify-content: space-around;
+    padding: 63px 390px 0 390px;
+    flex-wrap: wrap;
+}
+h2 {
+    font-size: 18px;
+    text-align: center;
+}
+.section-item-text {
+    font-size: 16px;
+    text-align: center;
+}
