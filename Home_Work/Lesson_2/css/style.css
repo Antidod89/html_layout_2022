@@ -24,6 +24,7 @@ h1 {
     justify-content: space-around;
     padding: 63px 390px 0 390px;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 }
 h2 {
     font-size: 18px;
@@ -32,4 +33,34 @@ h2 {
 .section-item-text {
     font-size: 16px;
     text-align: center;
+    margin-top: 10px;
+    margin-bottom: 0;
 }
+.citata {
+    text-align: center;
+    border-top: 1px solid #FFB5B5;
+    border-bottom: 1px solid #FFB5B5;
+    width: 1137.5px;;
+    height: 283px;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center;
+    margin-left: 392px;
+    margin-right: 390.5px;
+    color: #FF445A;
+    font-size: 32px;
+}
+.test1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 79px 522px 80px 488px;
+}
+footer {
+    background-color: #FFB5B5;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
