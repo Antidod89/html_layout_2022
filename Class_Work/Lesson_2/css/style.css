@@ -1,65 +1,69 @@
-body {
-    margin: 0;
+body, html {
+  margin: 0;
+  height: 100%;
 }
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 .container {
-    max-width: 1140px;
-    margin: 0 auto;
-
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 header {
-    height: 60px;
-    background-color: aqua;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  height: 60px;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .main-menu {
-    background-color: blueviolet;
-    
+  background-color: blueviolet;
+  flex: 1 1 auto;
 }
 .main-menu-list {
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
 }
 .main-section {
-    background-color: coral;
-    flex: 7;
-    display: flex;
-    flex-wrap: wrap;
+  background-color: coral;
+  flex: 7;
+  display: flex;
+  flex-wrap: wrap;
 }
 .main-section-item {
-    background-color: bisque;
-    width: calc(50% - 20px);
-    padding: 15px;
-    box-sizing: border-box;
-    margin: 10px;
+  background-color: bisque;
+  width: calc(50% - 20px);
+  padding: 15px;
+  box-sizing: border-box;
+  margin: 10px;
 }
 .sidebar-right {
-    background-color: darkturquoise;
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+  background-color: darkturquoise;
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .news {
-    background-color: tomato;
+  background-color: tomato;
 }
 footer {
-    background-color: yellowgreen;
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: yellowgreen;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
 }
 .content {
-    display: flex;
+  display: flex;
+  flex-grow: 1;
 }
-
