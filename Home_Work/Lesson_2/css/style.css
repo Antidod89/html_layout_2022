@@ -13,6 +13,9 @@ header {
     align-items: center;
     box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.1);
 }
+.contact {
+    color: #212121;
+}
 h1 {
     font-size: 40px;
     padding-top: 63px;
@@ -21,20 +24,20 @@ h1 {
 }
 .section-item {
     display: flex;
-    justify-content: space-around;
-    padding: 63px 390px 0 390px;
-    flex-wrap: wrap;
-    padding-bottom: 80px;
+    justify-content: space-between;
+    padding: 63px 493px 80px 495px;
 }
 h2 {
     font-size: 18px;
     text-align: center;
+    color: #212121;
 }
 .section-item-text {
     font-size: 16px;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 0;
+    color: #424242;
 }
 .citata {
     text-align: center;
@@ -54,7 +57,9 @@ h2 {
 .test1 {
     display: flex;
     justify-content: space-between;
-    margin: 79px 522px 80px 488px;
+    padding: 79px 521px 80px 488px;
+    color: #424242;
+    height: 282px;
 }
 footer {
     background-color: #FFB5B5;
@@ -62,5 +67,6 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #FFFFFF;
 }
 
