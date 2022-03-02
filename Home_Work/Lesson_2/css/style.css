@@ -1,12 +1,12 @@
 body {
   margin: 0;
-  font-family: "Montserrat", "Arial", sans-serif;
+  font-family: "Montserrat", "Arial";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
 }
 .container {
-  width: 1920px;
+  max-width: 1920px;
 }
 header {
   height: 80px;
