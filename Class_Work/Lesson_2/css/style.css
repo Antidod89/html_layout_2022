@@ -1,6 +1,5 @@
 body, html {
   margin: 0;
-  height: 100%;
 }
 ul {
   margin: 0;
@@ -11,7 +10,6 @@ ul {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 header {
   height: 60px;
@@ -58,12 +56,17 @@ header {
 footer {
   background-color: yellowgreen;
   height: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: auto;
 }
 .content {
   display: flex;
   flex-grow: 1;
+  min-width: 100ph
+  ;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.wrap1 {
+  margin: 0 auto;
 }
