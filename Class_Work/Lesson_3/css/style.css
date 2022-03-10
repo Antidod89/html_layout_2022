@@ -97,9 +97,10 @@ ul {
     color: #212121;
     margin-bottom: 63px;
 }
-.banner-buttons {
+.buttons {
     display: flex;
     justify-content: space-between;
+    width: 437px;
 }
 .suggestions-h2 {
     font-style: normal;
@@ -138,6 +139,7 @@ ul {
 .suggestions-card-info-img {
     width: 262px;
     height: 300px;
+    border-radius: 0 8px 8px 0;
 }
 .suggestions-card-info-text {
     padding-left: 34px;
@@ -159,4 +161,87 @@ ul {
     line-height: 130%;
     color: #424242;
     margin: 0;
+}
+.credits {
+    background: #EFF2F5;
+}
+.credits-60 {
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 750px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+.credits-60-head {
+    display: flex;
+    justify-content: space-between;
+    width: 650px;
+}
+.credits-60-head p {
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+    color: #212121;
+}
+.credits-60-items {
+    display: flex;
+    justify-content: space-between;
+    width: 545px;
+    margin-bottom: 40px;
+}
+.credits-60-item {
+    text-align: center;
+}
+.credits-60-item p {
+    margin: 0;
+    padding: 8px;
+}
+
+.credits-60-item-head {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;
+    color: #212121;
+    border-bottom:  1px solid #3A95FF;
+
+}
+.credits-side-link {
+    background: #F7F7F7;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    border-bottom: 5px solid #3A95FF;
+    width: 360px;
+    height: 235px;
+    display: flex;
+    justify-content: space-between;
+    padding: 34px;
+    box-sizing: border-box;
+}
+.credits-side-link img {
+    align-self: flex-end;
+}
+.credits-info {
+    display: flex;
+    justify-content: space-between;
+}
+.credits-wrap {
+    display: flex;
+    align-items: 775px;
+}
+.get-card-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.get-card-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+
 }
