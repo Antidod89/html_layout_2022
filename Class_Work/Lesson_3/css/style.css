@@ -164,6 +164,10 @@ ul {
 }
 .credits {
     background: #EFF2F5;
+height: 775px;
+}
+.credits-info {
+    margin-top: 157px;
 }
 .credits-60 {
     background: #E0E5EA;
@@ -219,6 +223,7 @@ ul {
     justify-content: space-between;
     padding: 34px;
     box-sizing: border-box;
+    margin-bottom: 27px;
 }
 .credits-side-link img {
     align-self: flex-end;
@@ -231,7 +236,7 @@ ul {
     display: flex;
     align-items: 775px;
 }
-.get-card-item {
+.get-card {
     display: flex;
     justify-content: space-around;
     align-items: center;
