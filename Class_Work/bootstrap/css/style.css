@@ -1,0 +1,13 @@
+.orange {
+    background-color: orange;
+}
+.pink {
+    background-color: pink;
+    border: 1px solid black;
+}
+.bg-color {
+    background-color: black !important;
+}
+.nav-text {
+    color: white !important;
+}
